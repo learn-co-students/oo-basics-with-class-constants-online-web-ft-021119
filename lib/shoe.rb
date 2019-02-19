@@ -7,7 +7,7 @@ class Shoe
 
   def initialize(brand)
     @brand = brand
-      if @brand = @brand
+      if BRANDS.include?(@brand = @brand
     BRANDS << @brand
   end
 binding.pry
