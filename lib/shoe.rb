@@ -11,10 +11,9 @@ class Shoe
         BRANDS << @brand
       end
   end
-
+binding.pry
   def cobble
     self.condition = "new"
     puts "Your shoe is as good as new!"
   end
 end
-binding.pry
