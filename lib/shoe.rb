@@ -7,10 +7,10 @@ class Shoe
 
   def initialize(brand)
     @brand = brand
-    #@brand = @brand.uniq
+      if @brand = @brand
     BRANDS << @brand
   end
-#binding.pry
+binding.pry
   def cobble
     self.condition = "new"
     puts "Your shoe is as good as new!"
