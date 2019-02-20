@@ -5,17 +5,11 @@ class Shoe
   BRANDS = []
 
   def initialize(brand)
-    @brand = brand
-    BRANDS << brand
+    #@brand = brand
+    #BRANDS << brand
 
-    arrayBrand = brand.split
-    arrayBrand = arrayBrand.uniq
-    
-      
-    end
-    
-    uniqueBrand = brand.uniq
-    BRANDS << uniqueBrand
+    BRANDS.push(brand) unless BRANDS.include?(brand)
+
   end
 
   def cobble
